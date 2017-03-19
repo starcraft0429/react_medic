@@ -1,0 +1,42 @@
+.banner{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.title{
+	font-size: 25px;
+}
+.table{
+	width: 1000px;
+	margin: auto;
+}
+.items{
+	width: 20%;
+	height: 120px;
+	padding: 8px;
+	float: left;
+}
+.item{
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	border: 1px solid #eee;
+	border-radius: 2px;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.item:hover{
+	box-shadow: 2px 3px 8px 1px #eee;
+	font-size: 21px;
+}
+.item:active{
+	box-shadow: -1px -1px 8px 1px #eee;
+}
